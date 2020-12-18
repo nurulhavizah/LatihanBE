@@ -13,3 +13,11 @@ app.listen(port, function(){
 app.post("/", function (req, res) {
   res.send("Hello My name is YOUR_NAME but it from post");
 });
+
+app.put("/", function (req, res) {
+  res.send("Hello My name is YOUR_NAME but it from put");
+});
+
+app.patch("/", function (req, res) {
+  res.send("Hello My name is YOUR_NAME but it from patch");
+});
